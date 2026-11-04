@@ -9,6 +9,7 @@
   --text-muted: #B0B0B0;
   --text-primary: #0D0D0D;
   --text-secondary: #7A7A7A;
+  --venue-blue: #2B4C7E;
 }
 
 /* === Reset & Base === */
@@ -479,7 +480,8 @@ a {
 .pub-content .pub-venue {
   font-size: 13px;
   font-style: italic;
-  color: var(--text-muted);
+  font-weight: 500;
+  color: var(--venue-blue);
 }
 
 /* === Projects Section === */
